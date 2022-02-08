@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.header_left {
+  display: flex;
+  justify-content: flex-start;
+}
+.header_left-button {
+  margin-right: 10px;
+  color: aliceblue;
+  background-color: orange;
+  border-style: none;
+}
