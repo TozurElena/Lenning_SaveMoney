@@ -8,6 +8,9 @@ h1 {
 h2 {
   font-size: 50px;
 }
+h3 {
+  font-size: 20px;
+}
 p {
   color: rgb(185, 184, 184);
 }
@@ -132,6 +135,40 @@ p {
   top: 200px;
   left: 100px;
 }
+.section_plan {
+  text-align: center;
+}
+.plans {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.section_plan-list {
+  list-style-type: "\1F44D";
+  padding: 15px;
+  line-height: 220%;
+}
+.section_plan-prix {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+.section_plan-button {
+  color: orange;
+  background-color: #fff;
+  border-color: #ff5e00;
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+}
+.plan_up {
+  font-size: 10px;
+}
+/* .plan_start,
+.plan_sliver,
+.plan_diamond {
+} */
+
 .footer_info {
   display: flex;
   justify-content: center;
