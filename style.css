@@ -73,12 +73,12 @@ p {
 .section_20 {
   width: 1100px;
   margin: 0 auto;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 200px;
+  margin-bottom: 50px;
 }
 .section_image {
   background: linear-gradient(-124deg, rgb(250, 149, 59), rgb(246, 37, 19));
-
+  margin-bottom: 200px;
   display: flex;
   justify-content: center;
 }
@@ -112,6 +112,7 @@ p {
   background: url(images/background-orange.jpg);
   text-align: center;
   position: relative;
+  margin-top: 250px;
 }
 .section_20 h2 {
   color: #fff;
@@ -137,6 +138,8 @@ p {
 }
 .section_plan {
   text-align: center;
+  margin-top: 150px;
+  margin-bottom: 200px;
 }
 .plans {
   display: flex;
@@ -164,17 +167,32 @@ p {
 .plan_up {
   font-size: 10px;
 }
-/* .plan_start,
-.plan_sliver,
-.plan_diamond {
-} */
-
-.footer_info {
+.footer_nav_main {
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 160px;
+  align-items: top;
+  gap: 80px;
   margin-bottom: 50px;
+}
+.footer_left {
+  position: relative;
+  padding-right: 50px;
+}
+.nav_footer_list {
+  list-style: none;
+  padding: 0px;
+  line-height: 200%;
+}
+.nav_footer_list a {
+  text-decoration: none;
+  color: #000;
+}
+.footer_info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin: 0 auto;
+  width: 1000px;
 }
 .footer_info_center {
   color: rgb(7, 7, 7);
@@ -184,5 +202,28 @@ p {
   text-decoration: none;
   color: rgb(7, 7, 7);
   font-size: 12px;
-  margin-right: 20px;
+  margin-left: 10px;
+}
+.footer_email {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px 10px 10px 10px;
+  border-color: #000;
+  display: flex;
+  justify-content: space-between;
+  width: 120%;
+}
+.footer_email p {
+  color: #000;
+}
+.footer_email-button {
+  background-color: #ff5e00;
+  border-radius: 5px;
+  color: #fff;
+  padding: 0px 20px 0px 20px;
+  border-style: none;
+}
+.footer_email-text {
+  font-size: 80%;
 }
