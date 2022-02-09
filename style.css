@@ -5,11 +5,17 @@ section {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+h1 {
+  font-size: 62px;
+}
+p {
+  color: rgb(185, 184, 184);
+}
 .nav_main {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 170px;
+  gap: 160px;
   margin-bottom: 50px;
 }
 .header_left {
@@ -18,7 +24,7 @@ section {
 .header_left-button {
   margin-right: 20px;
   color: aliceblue;
-  background-color: orange;
+  background-color: #ff5e00;
   border-style: none;
   border-radius: 50%;
   position: absolute;
@@ -30,6 +36,7 @@ section {
   font-weight: bold;
   font-size: 120%;
   margin-left: 35px;
+  color: black;
 }
 .nav_main_list {
   list-style: none;
@@ -47,7 +54,30 @@ section {
 .header_right-button {
   color: orange;
   background-color: #fff;
-  border-color: orange;
-  border-radius: 10px;
+  border-color: #ff5e00;
+  border-radius: 5px;
   padding: 10px 10px 10px 10px;
+}
+.section_demo,
+.section_cloud,
+.section_plan {
+  width: 930px;
+  margin: 0 auto;
+}
+.imgRihgt {
+  float: right;
+  width: 50%;
+}
+.section_demo-try {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+.section_demo-button {
+  background-color: #ff5e00;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+  border-style: none;
+  margin-right: 20px;
 }
