@@ -1,12 +1,12 @@
 body {
-  font-family: sans-serif;
-}
-section {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.5px;
 }
 h1 {
   font-size: 62px;
+}
+h2 {
+  font-size: 50px;
 }
 p {
   color: rgb(185, 184, 184);
@@ -61,12 +61,35 @@ p {
 .section_demo,
 .section_cloud,
 .section_plan {
-  width: 930px;
+  width: 850px;
   margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.section_image,
+.section_20 {
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.section_image {
+  background: linear-gradient(-124deg, rgb(250, 149, 59), rgb(246, 37, 19));
+
+  display: flex;
+  justify-content: center;
 }
 .imgRihgt {
   float: right;
   width: 50%;
+}
+.img2 {
+  width: 900px;
+  margin-top: 40px;
+}
+.lien_cloud {
+  color: #ff5e00;
+  text-decoration: none;
 }
 .section_demo-try {
   display: flex;
@@ -80,4 +103,32 @@ p {
   padding: 10px 10px 10px 10px;
   border-style: none;
   margin-right: 20px;
+}
+.section_20 {
+  height: 500px;
+  background: url(images/background-orange.jpg);
+  text-align: center;
+  position: relative;
+}
+.section_20 h2 {
+  color: #fff;
+  padding: 50px 200px 0 200px;
+}
+.section_20 h3 {
+  color: #fff;
+  font-size: 20px;
+}
+.section_20-button {
+  color: #ff5e00;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 10px 10px 10px 10px;
+  border-style: none;
+  margin-top: 20px;
+}
+.section_20-image {
+  width: 900px;
+  position: absolute;
+  top: 200px;
+  left: 100px;
 }
