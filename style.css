@@ -132,3 +132,20 @@ p {
   top: 200px;
   left: 100px;
 }
+.footer_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 160px;
+  margin-bottom: 50px;
+}
+.footer_info_center {
+  color: rgb(7, 7, 7);
+  font-size: 12px;
+}
+.footer_info_left a {
+  text-decoration: none;
+  color: rgb(7, 7, 7);
+  font-size: 12px;
+  margin-right: 20px;
+}
