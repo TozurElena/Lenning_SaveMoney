@@ -97,6 +97,7 @@ p {
 .img_firme {
   margin-left: 250px;
   width: 1000px;
+  margin-top: 50px;
 }
 .lien_cloud {
   color: #ff5e00;
@@ -107,13 +108,20 @@ p {
   justify-content: flex-start;
   margin-top: 50px;
 }
-.section_demo-button {
+
+.section_demo-form {
   background-color: #ff5e00;
   border-radius: 5px;
-  color: #fff;
+
   padding: 10px 10px 10px 10px;
   border-style: none;
   margin-right: 20px;
+}
+
+.section_demo-form select {
+  color: #fff;
+  border-style: none;
+  background-color: #ff5e00;
 }
 .section_20 {
   height: 500px;
@@ -156,7 +164,7 @@ p {
 }
 
 .section_plan-list {
-  list-style-type: "\1F44D";
+  list-style: url("images/planList.png");
   padding: 15px;
   line-height: 220%;
 }
@@ -172,6 +180,7 @@ p {
   border-radius: 5px;
   padding: 10px 10px 10px 10px;
 }
+
 .plan_up {
   font-size: 10px;
 }
