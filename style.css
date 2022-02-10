@@ -129,7 +129,7 @@ p {
   background: url(images/background-orange.jpg);
   text-align: center;
   position: relative;
-  margin-top: 250px;
+  margin-top: 200px;
 }
 .section_20 h2 {
   color: #fff;
@@ -162,6 +162,12 @@ p {
   display: flex;
   justify-content: space-between;
   text-align: left;
+}
+.plan {
+  background: #ffffff;
+  box-shadow: 0 0 3rem rgba(192, 179, 179, 0.25);
+  border-radius: 0.9rem;
+  padding: 20px 20px 30px 40px;
 }
 .plans button:hover {
   color: #fff;
