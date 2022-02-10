@@ -69,7 +69,7 @@ p {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.section_image,
+
 .section_20 {
   width: 1100px;
   margin: 0 auto;
@@ -78,9 +78,12 @@ p {
 }
 .section_image {
   background: linear-gradient(-124deg, rgb(250, 149, 59), rgb(246, 37, 19));
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   display: flex;
   justify-content: center;
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 200px;
 }
 .imgRihgt {
   float: right;
@@ -89,6 +92,11 @@ p {
 .img2 {
   width: 900px;
   margin-top: 40px;
+  text-align: center;
+}
+.img_firme {
+  margin-left: 250px;
+  width: 1000px;
 }
 .lien_cloud {
   color: #ff5e00;
