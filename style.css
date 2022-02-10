@@ -60,6 +60,7 @@ p {
   border-color: #ff5e00;
   border-radius: 5px;
   padding: 10px 10px 10px 10px;
+  cursor: pointer;
 }
 .section_demo,
 .section_cloud,
