@@ -162,7 +162,10 @@ p {
   justify-content: space-between;
   text-align: left;
 }
-
+.plans button:hover {
+  color: #fff;
+  background-color: #ff5e00;
+}
 .section_plan-list {
   list-style: url("images/planList.png");
   padding: 15px;
@@ -180,7 +183,6 @@ p {
   border-radius: 5px;
   padding: 10px 10px 10px 10px;
 }
-
 .plan_up {
   font-size: 10px;
 }
@@ -232,7 +234,7 @@ p {
   border-color: #000;
   display: flex;
   justify-content: space-between;
-  width: 120%;
+  width: 110%;
 }
 .footer_email p {
   color: #000;
@@ -241,8 +243,12 @@ p {
   background-color: #ff5e00;
   border-radius: 5px;
   color: #fff;
-  padding: 0px 20px 0px 20px;
+  padding: 10px 20px 10px 20px;
   border-style: none;
+}
+.footer_email-bt {
+  border-style: none;
+  color: #000;
 }
 .footer_email-text {
   font-size: 80%;
